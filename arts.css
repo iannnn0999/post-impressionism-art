@@ -1,0 +1,155 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background : url(banner/artist\ \(2\).png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    top: 607px;
+    left: 980px;
+    position: fixed; 
+}
+.fbicon{
+    width: 30px;
+    top: 605px;
+    left: 107vh;
+    position: fixed;
+}
+.igicon{
+    width: 55px;
+    top:605px ;
+    left:95vh ;
+    position: fixed;
+}
+.pinicon{
+    width:30px ;
+    top: 605px;
+    left:87vh ;
+    position: fixed;
+
+}
+.navbuttons{
+    position:fixed;
+        top: 10px;
+    padding-left: 195px;
+    text-align: center;
+    opacity: 0;
+}
+.HOME{
+    height:50px;
+    width: 90px;
+}
+.ARTIST{
+    height:50px ;
+    width: 94px;
+    margin-left: 110px;
+}
+.ARTS{
+    height: 50px;
+    width: 68px;
+    margin-left: 130px;
+}
+.ABOUT{
+    height:50px ;
+    margin-left:130px ;
+    width: 137px;
+}
+.CONTACT{
+    height: 50px;
+    margin-left: 107px;
+    width: 160px;
+}
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+/* Body spacing so cards don't overlap navbar */
+body {
+  font-family: Arial, sans-serif;
+  
+  padding-top: 90px;
+  overflow-x: hidden;   /* 🚀 removes horizontal scrollbar */
+}
+
+/* Grid container */
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+/* Flex row with wrapping */
+.row {
+  display: flex;
+  flex-wrap: wrap;   /* 🚀 wrap instead of causing scroll */
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Each column */
+.col-custom {
+  flex: 0 0 calc(100% / 7 - 20px); /* 7 cards per row (desktop) */
+  display: flex;
+  justify-content: center;
+}
+
+/* Card styling */
+.card {
+  width: 100%;
+  max-width: 160px; /* a bit smaller to fit nicely */
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 12px;
+  color: #333;
+}

@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background: url(banner/home.png ) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* iconss */
+.footer{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    top: 607px;
+    left: 980px;
+    position: fixed; 
+}
+.fbicon{
+    width: 30px;
+    top: 605px;
+    left: 107vh;
+    position: fixed;
+}
+.igicon{
+    width: 55px;
+    top: 605px;
+    left: 95vh;
+    position: fixed;
+}
+.pinicon{
+    width: 30px;
+    top: 605px;
+    left: 87vh;
+    position:fixed ;
+}
+.navbuttons{
+    position:fixed;
+    bottom: 580px;
+    left: 203px;
+    text-align: center;
+    opacity: 0;
+}
+.HOME{
+    height:50px;
+    width: 90px;
+}
+.ARTIST{
+    height:50px ;
+    width: 94px;
+    margin-left: 110px;
+}
+.ARTS{
+    height: 50px;
+    width: 68px;
+    margin-left: 130px;
+}
+.ABOUT{
+    height:50px ;
+    margin-left:130px ;
+    width: 137px;
+}
+.CONTACT{
+    height: 50px;
+    margin-left: 107px;
+    width: 160px;
+}
